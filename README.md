@@ -48,7 +48,7 @@ import matplotlib.pyplot as plt
 # Create the Text using cv2.putText:
 
 text_image = np.zeros((100,300),dtype = 'uint8')
-font = cv2.ONT_HERSHEY_TRIPLEX = 7
+font = cv2.FONT_HERSHEY_TRIPLEX = 7
 cv2.putText(text_image,"Sanjay",(5,70),font,2,(255),5,cv2.LINE_AA)
 plt.title("Original Image")
 plt.imshow(text_image,'magma')
